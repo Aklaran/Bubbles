@@ -15,9 +15,19 @@
 
 }
 
--(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
     /* Called when a touch begins */
 
+}
+
+-(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    UITouch *touch = [touches anyObject];
+    CGPoint touchLocation = [touch locationInView:self.view];
+    
+    
+    
 }
 
 -(void)update:(CFTimeInterval)currentTime {
