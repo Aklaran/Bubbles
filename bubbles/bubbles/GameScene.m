@@ -40,7 +40,7 @@
     for (UITouch *touch in touches) {
         CGPoint location = [touch locationInNode:self];
         
-        SKLightNode *light = [SKLightNode nodeWithFileNamed:@"light"];
+        SKLightNode *light = (SKLightNode*)[self childNodeWithName:@"light"];
         
         light.position = location;
     }
