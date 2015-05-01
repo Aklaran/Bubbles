@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		1E7391E51AF2A5590016E6F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7391E41AF2A5590016E6F5 /* main.m */; };
 		1E7391E81AF2A5590016E6F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7391E71AF2A5590016E6F5 /* AppDelegate.m */; };
-		1E7391EB1AF2A5590016E6F5 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7391EA1AF2A5590016E6F5 /* GameScene.m */; };
-		1E7391ED1AF2A5590016E6F5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1E7391EC1AF2A5590016E6F5 /* GameScene.sks */; };
-		1E7391F01AF2A5590016E6F5 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7391EF1AF2A5590016E6F5 /* GameViewController.m */; };
-		1E7391F31AF2A5590016E6F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E7391F11AF2A5590016E6F5 /* Main.storyboard */; };
-		1E7391F51AF2A5590016E6F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E7391F41AF2A5590016E6F5 /* Images.xcassets */; };
-		1E7391F81AF2A5590016E6F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E7391F61AF2A5590016E6F5 /* LaunchScreen.xib */; };
 		1E7392041AF2A5590016E6F5 /* bubblesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7392031AF2A5590016E6F5 /* bubblesTests.m */; };
 		1E73920F1AF2A7370016E6F5 /* vulcan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E73920E1AF2A7370016E6F5 /* vulcan.jpg */; };
+		1E8117DB1AF340D400FE5DB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8117DA1AF340D400FE5DB1 /* Images.xcassets */; };
+		1E8117E61AF340E000FE5DB1 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8117DE1AF340E000FE5DB1 /* GameScene.m */; };
+		1E8117E71AF340E000FE5DB1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1E8117DF1AF340E000FE5DB1 /* GameScene.sks */; };
+		1E8117E81AF340E000FE5DB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E8117E11AF340E000FE5DB1 /* LaunchScreen.xib */; };
+		1E8117E91AF340E000FE5DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8117E21AF340E000FE5DB1 /* Main.storyboard */; };
+		1E8117EA1AF340E000FE5DB1 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8117E51AF340E000FE5DB1 /* GameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +35,18 @@
 		1E7391E41AF2A5590016E6F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E7391E61AF2A5590016E6F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E7391E71AF2A5590016E6F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1E7391E91AF2A5590016E6F5 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		1E7391EA1AF2A5590016E6F5 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		1E7391EC1AF2A5590016E6F5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		1E7391EE1AF2A5590016E6F5 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		1E7391EF1AF2A5590016E6F5 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		1E7391F21AF2A5590016E6F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1E7391F41AF2A5590016E6F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1E7391F71AF2A5590016E6F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1E7391FD1AF2A5590016E6F5 /* bubblesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bubblesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E7392021AF2A5590016E6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E7392031AF2A5590016E6F5 /* bubblesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bubblesTests.m; sourceTree = "<group>"; };
 		1E73920E1AF2A7370016E6F5 /* vulcan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vulcan.jpg; sourceTree = "<group>"; };
+		1E8117DA1AF340D400FE5DB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E8117DD1AF340E000FE5DB1 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		1E8117DE1AF340E000FE5DB1 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		1E8117DF1AF340E000FE5DB1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1E8117E11AF340E000FE5DB1 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		1E8117E21AF340E000FE5DB1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1E8117E41AF340E000FE5DB1 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		1E8117E51AF340E000FE5DB1 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,16 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				1E73920D1AF2A7370016E6F5 /* Assets */,
-				1E7391E61AF2A5590016E6F5 /* AppDelegate.h */,
-				1E7391E71AF2A5590016E6F5 /* AppDelegate.m */,
-				1E7391E91AF2A5590016E6F5 /* GameScene.h */,
-				1E7391EA1AF2A5590016E6F5 /* GameScene.m */,
-				1E7391EC1AF2A5590016E6F5 /* GameScene.sks */,
-				1E7391EE1AF2A5590016E6F5 /* GameViewController.h */,
-				1E7391EF1AF2A5590016E6F5 /* GameViewController.m */,
-				1E7391F11AF2A5590016E6F5 /* Main.storyboard */,
-				1E7391F41AF2A5590016E6F5 /* Images.xcassets */,
-				1E7391F61AF2A5590016E6F5 /* LaunchScreen.xib */,
+				1E8117DC1AF340E000FE5DB1 /* Scenes */,
+				1E8117E01AF340E000FE5DB1 /* Storyboards */,
+				1E8117E31AF340E000FE5DB1 /* ViewControllers */,
 				1E7391E21AF2A5590016E6F5 /* Supporting Files */,
 			);
 			path = bubbles;
@@ -107,6 +100,8 @@
 		1E7391E21AF2A5590016E6F5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1E7391E61AF2A5590016E6F5 /* AppDelegate.h */,
+				1E7391E71AF2A5590016E6F5 /* AppDelegate.m */,
 				1E7391E31AF2A5590016E6F5 /* Info.plist */,
 				1E7391E41AF2A5590016E6F5 /* main.m */,
 			);
@@ -133,9 +128,38 @@
 		1E73920D1AF2A7370016E6F5 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				1E8117DA1AF340D400FE5DB1 /* Images.xcassets */,
 				1E73920E1AF2A7370016E6F5 /* vulcan.jpg */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		1E8117DC1AF340E000FE5DB1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1E8117DD1AF340E000FE5DB1 /* GameScene.h */,
+				1E8117DE1AF340E000FE5DB1 /* GameScene.m */,
+				1E8117DF1AF340E000FE5DB1 /* GameScene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1E8117E01AF340E000FE5DB1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1E8117E11AF340E000FE5DB1 /* LaunchScreen.xib */,
+				1E8117E21AF340E000FE5DB1 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1E8117E31AF340E000FE5DB1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E8117E41AF340E000FE5DB1 /* GameViewController.h */,
+				1E8117E51AF340E000FE5DB1 /* GameViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,11 +242,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E7391F81AF2A5590016E6F5 /* LaunchScreen.xib in Resources */,
+				1E8117E81AF340E000FE5DB1 /* LaunchScreen.xib in Resources */,
+				1E8117E91AF340E000FE5DB1 /* Main.storyboard in Resources */,
 				1E73920F1AF2A7370016E6F5 /* vulcan.jpg in Resources */,
-				1E7391F51AF2A5590016E6F5 /* Images.xcassets in Resources */,
-				1E7391ED1AF2A5590016E6F5 /* GameScene.sks in Resources */,
-				1E7391F31AF2A5590016E6F5 /* Main.storyboard in Resources */,
+				1E8117E71AF340E000FE5DB1 /* GameScene.sks in Resources */,
+				1E8117DB1AF340D400FE5DB1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,9 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E7391F01AF2A5590016E6F5 /* GameViewController.m in Sources */,
+				1E8117EA1AF340E000FE5DB1 /* GameViewController.m in Sources */,
 				1E7391E81AF2A5590016E6F5 /* AppDelegate.m in Sources */,
-				1E7391EB1AF2A5590016E6F5 /* GameScene.m in Sources */,
+				1E8117E61AF340E000FE5DB1 /* GameScene.m in Sources */,
 				1E7391E51AF2A5590016E6F5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,25 +288,6 @@
 			targetProxy = 1E7391FE1AF2A5590016E6F5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1E7391F11AF2A5590016E6F5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E7391F21AF2A5590016E6F5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1E7391F61AF2A5590016E6F5 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E7391F71AF2A5590016E6F5 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1E7392051AF2A5590016E6F5 /* Debug */ = {
@@ -436,6 +441,7 @@
 				1E7392091AF2A5590016E6F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E73920A1AF2A5590016E6F5 /* Build configuration list for PBXNativeTarget "bubblesTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +450,7 @@
 				1E73920C1AF2A5590016E6F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
