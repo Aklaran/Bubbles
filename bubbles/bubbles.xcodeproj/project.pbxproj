@@ -20,6 +20,7 @@
 		1E8117ED1AF3412900FE5DB1 /* EmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8117EC1AF3412900FE5DB1 /* EmitterViewController.m */; };
 		1E8117F01AF342FC00FE5DB1 /* EmitterScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8117EF1AF342FC00FE5DB1 /* EmitterScene.m */; };
 		1E8117F21AF3433B00FE5DB1 /* EmitterScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1E8117F11AF3433B00FE5DB1 /* EmitterScene.sks */; };
+		1E8117F41AF344B100FE5DB1 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E8117F31AF344B100FE5DB1 /* bubble.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		1E8117EE1AF342FC00FE5DB1 /* EmitterScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterScene.h; sourceTree = "<group>"; };
 		1E8117EF1AF342FC00FE5DB1 /* EmitterScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterScene.m; sourceTree = "<group>"; };
 		1E8117F11AF3433B00FE5DB1 /* EmitterScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EmitterScene.sks; sourceTree = "<group>"; };
+		1E8117F31AF344B100FE5DB1 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		1E73920D1AF2A7370016E6F5 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				1E8117F31AF344B100FE5DB1 /* bubble.png */,
 				1E8117DA1AF340D400FE5DB1 /* Images.xcassets */,
 				1E73920E1AF2A7370016E6F5 /* vulcan.jpg */,
 			);
@@ -255,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8117F41AF344B100FE5DB1 /* bubble.png in Resources */,
 				1E8117E81AF340E000FE5DB1 /* LaunchScreen.xib in Resources */,
 				1E8117E91AF340E000FE5DB1 /* Main.storyboard in Resources */,
 				1E73920F1AF2A7370016E6F5 /* vulcan.jpg in Resources */,
