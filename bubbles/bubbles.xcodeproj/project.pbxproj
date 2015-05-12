@@ -94,7 +94,7 @@
 		1E7391E11AF2A5590016E6F5 /* bubbles */ = {
 			isa = PBXGroup;
 			children = (
-				1EE353471AF7EE2D00C8E7A5 /* Assets */,
+				1EA5D04F1AF7FA2300AF066D /* Assets */,
 				1E8117DC1AF340E000FE5DB1 /* Scenes */,
 				1E8117E01AF340E000FE5DB1 /* Storyboards */,
 				1E8117E31AF340E000FE5DB1 /* ViewControllers */,
@@ -162,6 +162,14 @@
 				1E8117EC1AF3412900FE5DB1 /* EmitterViewController.m */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1EA5D04F1AF7FA2300AF066D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1EE353471AF7EE2D00C8E7A5 /* Assets */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
